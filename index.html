@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity -Non Profitable Organization</title>
+    <!-- favivon -->
+    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper cssl link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- aos library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+    
+    <!-- top nav -->
+    <div class="top-nav">
+        <div class="container">
+            <div class="contact-info">
+                <span> <i class="fa fa-map-marker"></i> Nigeria, Ikeja</span> 
+                <span> <i class="fa fa-envelope"></i> Info@Gmail.com</span>
+                <span> <i class="fa fa-mobile"></i> 08177507780 </span>
+            </div>
+            <div class="cta">
+                <button class="btn"> Donate Now </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href=""> <img src="/assets/img/logo.png" alt=""></a>
+
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">event</a></li>
+                <li><a href="">projects</a></li>
+                <li><a href="">causes</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">pages</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- slider one -->
+    <section id="slider-one">
+        <!-- Swiper -->
+        <div class="swiper charity">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="img">
+                    <img src="/assets/img/slideone.avif" alt="">
+                </div>
+                <div class="content">
+                    <h4 data-aos="fade-left" data-aos-duration="3000">Be a part of the world by make a donation</h4>
+                    <h2>
+                        HELP US TO SAVE THE HOMELESS PEOPLE
+                    </h2>
+                    <div class="cta">
+                        <button class="btn learn">Learn More</button>
+                        <button class="btn join">Join Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="img"><img src="/assets/img/slidetwo.avif" alt=""></div>
+                <div class="content">
+                    <h4>Be a part of the world by make a donation</h4>
+                    <div >
+                        <h2>
+                            HELP US TO SAVE THE <br> HOMELESS PEOPLE
+                        </h2>
+                    </div>
+                    
+                    <div class="cta">
+                        <button class="btn learn">Learn More</button>
+                        <button class="btn join">Join Now</button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+                <div class="img"><img src="/assets/img/slidethree.avif" alt=""></div>
+                <div class="content">
+                    <h4>Be a part of the world by make a donation</h4>
+                    <h2>
+                        HELP US TO SAVE THE <br> HOMELESS PEOPLE
+                    </h2>
+                    <div class="cta">
+                        <button class="btn learn">Learn More</button>
+                        <button class="btn join">Join Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- slider two -->
+    <section id="slider-two">
+        <div class="container">
+            <div class="col">
+                <div class="card">
+                    <img src="/assets/img/fooddon.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Food Donate</h4>
+                        <p>
+                            Great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself pleasure. 
+                        </p>
+                        <a href="">Read More </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/assets/img/medic.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Medical Care</h4>
+                        <p>
+                            Great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself pleasure. 
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- help -->
+    <!-- causes -->
+    <!-- popular causes -->
+    <!-- our event -->
+    <!-- faq -->
+    <!-- volunteer -->
+    <!-- blog -->
+    <!-- sponsor -->
+    <!-- footer -->
+    
+
+
+
+ 
+    <!-- oas library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+       <!-- swiper js link -->
+       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <!-- Initialize -->
+  <script>
+    // swiper
+    let swiper = new Swiper(".charity", {
+        autoplay:{
+            delay:3000
+        },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    // aos
+    AOS.init();
+
+  </script>
+
+</body>
+</html>
